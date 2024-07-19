@@ -1,1 +1,20 @@
-version: '3.1'
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0.31
+    volumes:
+      - dbase:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: db_magalu
+      MYSQL_ROOT_PASSWORD: mensagemService
+      
+  phpmyadmin:
+    image: phpmyadmin
+    ports:
+      - 8000:80
+    
+volumes:
+  dbase:
