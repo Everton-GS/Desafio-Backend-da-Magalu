@@ -32,7 +32,7 @@ Para configurar e executar o projeto localmente, siga os passos abaixo:
 
 1. **Clone o Repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/Everton-GS/Desafio-Backend-da-Magalu.git
    cd nome-do-repositorio
    ```
    
