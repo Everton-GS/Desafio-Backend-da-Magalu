@@ -1,6 +1,5 @@
 # Vaga: Desenvolvedor(a) Backend - Magazine Luiza
 
-
 # Plataforma de Comunicação - Aplicação de Agendamento de Notificações
 
 ## Descrição do Projeto
