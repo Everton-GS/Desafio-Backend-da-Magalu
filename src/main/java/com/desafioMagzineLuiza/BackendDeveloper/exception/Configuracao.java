@@ -30,5 +30,13 @@ public class Configuracao {
     public ResponseEntity<String> handlerInternoServidor(Exception ex){
         return ResponseEntity.internalServerError().body("Erro interno servidor");
     }
+
+    @ExceptionHandler(NullPointerException.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    public ResponseEntity<String> handleNullPointerException(NullPointerException ex) {
+        return ResponseEntity.internalServerError().body("Erro interno do servidor: NullPointerException");
+    }
+
+
     
 }
