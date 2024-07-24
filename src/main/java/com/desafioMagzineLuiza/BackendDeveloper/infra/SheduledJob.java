@@ -18,6 +18,6 @@ public class SheduledJob {
 
     @Scheduled(fixedRate = 60000)
 	public void job(){
-		mensagemController.enviarEmail();
+		//mensagemController.enviarEmail();
 	}
 }

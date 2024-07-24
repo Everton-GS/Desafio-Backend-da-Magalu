@@ -1,10 +1,11 @@
 package com.desafioMagzineLuiza.BackendDeveloper.entity;
 
 public enum StatusMensagem {
-    
-    Enviado("enviado"),
-    Espera("espera");
 
+    Enviado("enviado"),
+    Espera("espera"),
+    Cancelado("cancelado");
+    
     private String status;
 
     private StatusMensagem(String status){
